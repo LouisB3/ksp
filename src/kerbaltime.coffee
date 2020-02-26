@@ -10,7 +10,7 @@ class KerbalTime
     @daysPerYear = newDaysPerYear
     $(@).trigger('dateFormatChanged', [oldHoursPerDay, oldDaysPerYear])
 
-  @secondsPerDay: -> @hoursPerDay * 7200
+  @secondsPerDay: -> @hoursPerDay * 3600
 
   @hmsString: (hour, min, sec) ->
     min = "0#{min}" if min < 10
@@ -32,8 +32,8 @@ class KerbalTime
     @t = if t.constructor == KerbalTime then t.t else t
 
   hms: ->
-    hours = (@t / 7200) | 0
-    t = @t % 7200
+    hours = (@t / 3600) | 0
+    t = @t % 3600
     mins = (t / 60) | 0
     secs = t % 60
     [hours, mins, secs]
