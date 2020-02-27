@@ -3,9 +3,9 @@
   var KerbalTime;
 
   KerbalTime = (function() {
-    KerbalTime.hoursPerDay = 6;
+    KerbalTime.hoursPerDay = 12;
 
-    KerbalTime.daysPerYear = 426;
+    KerbalTime.daysPerYear = 365;
 
     KerbalTime.setDateFormat = function(newHoursPerDay, newDaysPerYear) {
       var oldDaysPerYear, oldHoursPerDay;
