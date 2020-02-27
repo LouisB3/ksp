@@ -75,7 +75,8 @@
     return new CelestialBody(json.mass, json.radius, json.siderealRotation, orbit, json.atmPressure);
   };
 
-  CelestialBody.Moho = Moho = new CelestialBody(1.80034E+22, 650000, 2530758.15664, new Orbit(Sun, 14522400000, 0.2, 7, 70, 15, 0);
+  CelestialBody.Sun = Sun = new CelestialBody(1.25719E+29, 175750000, 1080000, null);
+  CelestialBody.Moho = Moho = new CelestialBody(1.80034E+22, 650000, 2530758.15664, new Orbit(Sun, 14522400000, 0.2, 7, 70, 15, 0));
   CelestialBody.Eve = Eve = new CelestialBody(8.645E+23, 2050000, 81000, new Orbit(Sun, 27131000000, 0.01, 2.1, 15, 45, 5.7));
   CelestialBody.Gilly = Gilly = new CelestialBody(991820000000000000, 30000, 670334.4, new Orbit(Eve, 86920000, 0.55, 12, 80, 10, 0));
   CelestialBody.Kerbin = Kerbin = new CelestialBody(3.76157E+23, 1600000, 43200, new Orbit(Sun, 37525647898.4324, 0.02, 0, 0, 0, 0));
