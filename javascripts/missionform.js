@@ -11,7 +11,7 @@
     referenceBodySelect = $('#referenceBodySelect');
     originSelect.empty();
     referenceBodySelect.empty();
-    $('<option>').text('Kerbol').appendTo(referenceBodySelect);
+    $('<option>').text('Sun').appendTo(referenceBodySelect);
     listBody = function(referenceBody, originGroup, referenceBodyGroup) {
       var body, children, name, _i, _len, _results;
       children = Object.keys(referenceBody.children());
@@ -39,7 +39,7 @@
         return $('<option>').text(planet).appendTo(selectBox);
       }
     };
-    bodies = Object.keys(CelestialBody.Kerbol.children());
+    bodies = Object.keys(CelestialBody.Sun.children());
     bodies.sort(function(a, b) {
       return CelestialBody[a].orbit.semiMajorAxis - CelestialBody[b].orbit.semiMajorAxis;
     });
