@@ -111,16 +111,9 @@
   CelestialBody.Taranis = Taranis = new CelestialBody(7.34681783856352E+21, 500000, 52170.5170334447, new Orbit(Grannus, 650000000, 0.02, 9, 140, 345, 3.141592654));
   CelestialBody.Toutatis = Toutatis = new CelestialBody(5.06241666688517E+22, 875000, 922118.734223791, new Orbit(Grannus, 4410500000, 0.015, 10.5, 160, 300, 0));
   CelestialBody.Nodens = Nodens = new CelestialBody(4.94991851873217E+23, 1750000, 243000, new Orbit(Grannus, 6200835067.84755, 0.02, 10, 155, 30, 0));
-  CelestialBody.Belisama = Belisama = new CelestialBody(1.54971938782199E+22, 625000, 307440.000000024, new Orbit(Nodens, 42925644.1946, 0.025, 9.5, 135, 165, 4.875));
   CelestialBody.Sucellus = Sucellus = new CelestialBody(2.89280952393439E+21, 375000, 28800, new Orbit(Grannus, 14742500000, 0.09, 7, 170, 45, 4));
-  CelestialBody.Caireen = Caireen = new CelestialBody(16530340136767900000, 75000, 575945.043182772, new Orbit(Sucellus, 11750000, 0.025, 5.5, 195, 75, 3.141592654));
   CelestialBody.Sirona = Sirona = new CelestialBody(8.26517006838396E+24, 7500000, 57600, new Orbit(Grannus, 29750000000, 0.04, 10, 150, 0, 3.141592654));
-  CelestialBody.Airmed = Airmed = new CelestialBody(3.52647256251049E+21, 400000, 218962.804389807, new Orbit(Sirona, 87500000, 0.01, 1, 120, 90, 0));
-  CelestialBody.Brovo = Brovo = new CelestialBody(2.89280952393438E+22, 750000, 619320.335246624, new Orbit(Sirona, 175000000, 0.02, 0.5, 150, 30, 3.141592654));
-  CelestialBody.Damona = Damona = new CelestialBody(3.52647256251049E+20, 200000, 1390081.13421702, new Orbit(Sirona, 300000000, 0.05, 4, 210, 300, 0));
   CelestialBody.Epona = Epona = new CelestialBody(1.37752834473066E+23, 1250000, 36000, new Orbit(Grannus, 58750000000, 0.06, 11, 145, 90, 0));
-  CelestialBody.Rosmerta = Rosmerta = new CelestialBody(68876417236533000000, 125000, 574139.315834893, new Orbit(Epona, 42500000, 0.07, 6, 180, 60, 3.141592654));
-  CelestialBody.RAB-58E = RAB-58E = new CelestialBody(826517006838396000, 25000, 14400, new Orbit(Epona, 225000000, 0.4, -160, 225, 180, 0));
   CelestialBody.Cernunnos = Cernunnos = new CelestialBody(9.25699047659003E+20, 300000, 21600, new Orbit(Grannus, 93250000000, 0.175, 4, 120, 180, 0.5));
 
 }).call(this);
